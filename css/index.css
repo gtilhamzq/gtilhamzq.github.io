@@ -108,13 +108,13 @@ h3, h4 {
 
 .section-01 {
     padding: 3% 5%;
-    height: 820px;
     width: 100%;
+    display: inline-block;
+    height: 820px;
     background-image: url('../images/bg_section.jpg');
     background-repeat: no-repeat;
     background-size: auto 150%;
     background-position: left bottom;
-    display: inline-block;
 }
 
 .section-01 .content {
@@ -155,6 +155,14 @@ h3, h4 {
 
 .section-01 .header .header-left label {
     display: none;
+}
+
+.section-02 {
+    padding: 7%;
+    width: 100%;
+    display: inline-block;
+    height: fit-content;
+    background-color: #000;
 }
 
 @media (min-width: 768px) {

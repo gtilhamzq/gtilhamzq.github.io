@@ -43,6 +43,10 @@ ul.navbar-mobile {
     border-left: none;
 }
 
+ul.navbar-mobile.footer {
+    border-left: #fff solid 2px;
+}
+
 .navbar-mobile-child {
     display: block;
 }
@@ -153,8 +157,16 @@ h3, h4 {
     position: relative;
 }
 
+.section-01.section-07 .header .header-left img {
+    position: unset;
+}
+
 .section-01 .header .header-left label {
     display: none;
+}
+
+.section-01.section-07 .header .header-left label {
+    display: block;
 }
 
 .section-02, .section-03 {
@@ -191,6 +203,11 @@ h3, h4 {
 
 .section-03 > div > div:nth-child(4) {
     background-image: url('../images/rectangle_23.png');
+}
+
+.section-01.section-07 {
+    background-image: none;
+    height: fit-content;
 }
 
 @media (min-width: 768px) {

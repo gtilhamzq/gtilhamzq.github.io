@@ -157,12 +157,40 @@ h3, h4 {
     display: none;
 }
 
-.section-02 {
+.section-02, .section-03 {
     padding: 7%;
     width: 100%;
     display: inline-block;
     height: fit-content;
     background-color: #000;
+}
+
+.section-03 {
+    padding: 0;
+}
+
+.section-03 > div > div {
+    height: 195px;
+    min-height: 195px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-03 > div > div:nth-child(1) {
+    background-image: url('../images/rectangle_20.png');
+}
+
+.section-03 > div > div:nth-child(2) {
+    background-image: url('../images/rectangle_21.png');
+}
+
+.section-03 > div > div:nth-child(3) {
+    background-image: url('../images/rectangle_22.png');
+}
+
+.section-03 > div > div:nth-child(4) {
+    background-image: url('../images/rectangle_23.png');
 }
 
 @media (min-width: 768px) {
@@ -198,5 +226,14 @@ ul.navbar-mobile {
 
 .section-01 .header .header-left label {
     display: block;
+}
+
+.section-03 {
+    padding: 7%;
+}
+
+.section-03 > div > div {
+    height: 310px;
+    min-height: 310px;
 }
 }

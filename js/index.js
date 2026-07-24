@@ -14,12 +14,14 @@ $(".navbar-mobile:eq(0) a").on("click", function() {
         navmobile = false
     }
 })
-/*
-$(".navbar-mobile-child a").on("click", function() {
+
+$(".navbar-mobile-child ul li a").on("click", function() {
+    alert(0)
+    /*
     $(".navbar-mobile:eq(0) a").text("MENU")
     $(".navbar-mobile-child .navbar").animate({ opacity: 0 }, "0.2s", function() {
         $(this).css("visibility", "hidden")
     })
     navmobile = false
+    */
 })
-*/

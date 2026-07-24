@@ -14,6 +14,7 @@ $(".navbar-mobile:eq(0) a").on("click", function() {
         navmobile = false
     }
 })
+/*
 $(".navbar-mobile-child a").on("click", function() {
     $(".navbar-mobile:eq(0) a").text("MENU")
     $(".navbar-mobile-child .navbar").animate({ opacity: 0 }, "0.2s", function() {
@@ -21,3 +22,4 @@ $(".navbar-mobile-child a").on("click", function() {
     })
     navmobile = false
 })
+*/
